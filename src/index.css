@@ -1,0 +1,75 @@
+.App {
+  height: 100vh;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("http://www.focusrs.org/forum/attachments/5239d1456198725-random-picture-thread-sands-time.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.title {
+  text-align: center;
+  color: #f5f5f5;
+
+  font-size: 80px;
+}
+
+input {
+  margin: 5px;
+}
+
+.reminder-form {
+  padding: 5px;
+}
+
+.list-item {
+  display: inline-block;
+}
+
+.list-buttons {
+
+  float: right;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 4px;
+}
+
+.delete-button {
+    background-color: red;
+    border: 2px solid #ff6666;
+    color: white;
+}
+
+.delete-button:hover {
+  background-color: #ff6666;
+  cursor: pointer;
+
+}
+
+.width {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.template {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom:7px;
+}
+ button {
+   margin-left:10px;
+ }
+
+
+.disabled {
+  disabled: true;
+}
+
+ .width input[type="text"]:disabled {
+   cursor: default;
+ }
